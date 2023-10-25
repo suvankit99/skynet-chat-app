@@ -5,7 +5,7 @@ Nodejs and Express for backend
 Mongodb for database
 React framework for the frontend 
 
-To run the project locally use the following commands\ 
+To run the project locally use the following commands<br/> 
 git clone <url of the repository>\
 npm start\
 cd frontend\
