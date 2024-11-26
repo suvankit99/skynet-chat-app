@@ -21,7 +21,7 @@ import { io } from "socket.io-client";
 import SendIcon from '@mui/icons-material/Send';
 import { Icon } from "@chakra-ui/react";
 
-const ENDPOINT = "https://sky-net-app.onrender.com";
+const ENDPOINT = "https://skynet-chat-app-free.onrender.com";
 // where our server is present , since it is at a different URL we enable CORS on server side
 // which means server can accept requests from other URLs as well
 let socket;
