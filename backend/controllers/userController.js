@@ -145,7 +145,7 @@ const resetPassword = asyncHandler(async (req, res) => {
       email: foundUser.email,
     };
     const token = jwt.sign(data, secret, { expiresIn: "15m" });
-    const link = `https://sky-net-app.onrender.com/new-password/`;
+    const link = `https://skynet-chat-app-free.onrender.com/new-password/`;
 
     // send the link via email
 
