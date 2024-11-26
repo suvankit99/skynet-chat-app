@@ -234,7 +234,7 @@ const SingleChat = () => {
               </Box>
               <FormControl onKeyDown={sendMessage} >
 
-                {isTyping && <div>typing...</div> }
+                {isTyping && <div style={{color:"white"}}>typing...</div> }
                 <Input
                   placeholder="Enter message"
                   size={"md"}
